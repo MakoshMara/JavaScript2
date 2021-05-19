@@ -9,7 +9,13 @@ body {
     max-width: 1140px;
     margin: 0 auto;
 }
-
+.goods-total {
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;
+    border-radius: 15px;
+    background-color: lightgray;
+}
 .header {
     display: flex;
     justify-content:flex-end;
