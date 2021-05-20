@@ -25,7 +25,7 @@ class GoodsList {
     }
 
     get_total_cost(){
-        this.goods.forEach(good => {this.total_cost += good.price})
+        return this.goods.forEach(good => {this.total_cost += good.price})
     }
 
     render() {
