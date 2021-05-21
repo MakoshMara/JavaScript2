@@ -9,7 +9,13 @@ body {
     max-width: 1140px;
     margin: 0 auto;
 }
-
+.goods-total {
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;
+    border-radius: 15px;
+    background-color: lightgray;
+}
 .header {
     display: flex;
     justify-content:flex-end;
@@ -52,6 +58,30 @@ body {
 
 }
 
-
+.basket{
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+.basket-item {
+    position: relative;
+    flex-grow: 1;
+}
+.goodButton {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
 
 
